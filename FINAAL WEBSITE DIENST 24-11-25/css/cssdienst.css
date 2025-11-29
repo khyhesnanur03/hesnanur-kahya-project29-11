@@ -1,0 +1,466 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+img{
+    width:100%;
+    
+}
+
+body{
+    font-family: "Josefin Slab", 'jura';
+    overflow-x: hidden;
+}
+
+
+header{
+    height: 100vh;
+    width: 100vw;
+    background-color: #8C745F;  
+    padding: 0;
+    display: flex;
+    justify-content: end;
+    background-image: url(../images/home.png);
+    background-position: left top;
+    background-size: 40%;
+    background-repeat: no-repeat;
+}
+
+#pictures header{
+    height: 10vh;
+    width: 100vw;
+    background-color: #8C745F; 
+    padding: 0;
+    display: flex;
+    justify-content: end;
+    background-image: none;
+    background-position: left top;
+    background-size: 33,3%;
+    background-repeat: no-repeat;
+}
+
+header section{
+    width:50vw;
+}
+
+/* NAVIGATIE */
+nav ul{
+    list-style-type: none; /* Dient voor punten weg te doen */
+}
+
+nav ul li{
+    display:inline-table; /* komt nu naast elkaar */
+}
+
+nav ul li a{
+    font-family:"Josefin Slab", 'jura';
+    font-weight: 500;
+    color:#FFFFFF; /* tekst header kleur */
+    font-size: 1em; /* 1em = 16px = 12pt*/
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 1px; 
+    margin-top: 20px;
+    margin-right: 30px;
+    border-bottom: 1px solid rgba(240,205,0,0);
+    display: inline-block;
+}
+
+
+#div1{
+    padding-left: 100px;
+    padding-right: 100px;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(140, 116, 95, 1);
+    display: flex;
+    color: white;
+    align-items: center;
+}
+#div2{
+    padding-top: 50px;
+    width: 100%;
+    height: 50%;
+    background-color: rgba(140, 116, 95, 1);
+    display: flex;
+
+}
+
+/* TYPO */
+h1,h2,h3{
+    font-family:"Josefin Slab", 'jura';
+    color: #FFFFFF; 
+    font-weight: normal;
+}
+h1{font-size: 3em;}
+h2{font-size: 2em;}
+h3{font-size: 1em;}
+
+#logo{
+    display: flex;
+    position: relative;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;  /*logo afbeelding*/
+    width: 200px;
+    align-self:flex-end;
+    margin-right: 20px;
+    
+}
+#logofoto{
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    justify-content: space-between;
+    
+}
+
+nav ul{
+    list-style-type: none; /* Dient voor punten weg te doen */
+}
+
+nav ul li{
+    display: inline-block; /* komt nu naast elkaar */
+}
+
+#team{
+    display: flex;
+    padding:0px;
+    padding-top: 100px;
+    padding-right: 20px;
+    
+    
+}
+#teamtekst{
+    padding:5vw;
+}
+#teamtekst section h1{
+   color:rgba(140, 116, 95, 1)
+   
+}
+#teamtekst section h2{
+   color:rgba(140, 116, 95, 1)
+   
+}
+#werknemers{
+   width:50vw;
+    /* padding: 5vw; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#tekst{
+    text-align: left;
+}
+
+#reeks{
+    background-color: #E8E0D5; 
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    flex-wrap: wrap;
+    width: 80%;
+    position: relative;
+    left: 7%; 
+}
+#reeks img{
+    width: 28%;
+    padding: 20px;
+}
+#hart img{
+   margin-top: 100px;
+   
+  
+}
+
+
+#harttekst{
+    background-color: #E8E0D5;
+    color: #A58B7D;
+    padding-top: 45px;
+    margin-top: -10px;
+    height: 200px;
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
+    text-align: center;
+    align-items: center;
+   
+}
+#fotos{ /*handen en creme*/
+    min-height: 50vh;
+}
+
+#fotos{display: flex;} /*handen en creme*/
+#fotos img{
+    width:50%;
+}
+
+#behandelingen{
+    color: #8C745F;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    
+}
+
+.divider{
+    border-bottom: 7px solid #8C745F; /*LIJN*/
+    width: 30%;
+    position: relative;
+    display: flex;
+    margin-left: 20px;
+}
+
+
+#massage{
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    flex-wrap: wrap;
+    width: 100%; /*afbeelding grootte*/
+    position: relative;
+    left: 2%; 
+    
+}
+
+#massage img{
+    width: 40%;
+    padding: 5px;
+    overflow: clip;
+}
+
+
+#massage section{
+    position: relative;
+    min-width: 33vw;
+    height: 50vh;
+    display: flex;
+    justify-content: flex-start;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+
+#gelaatsbehandelingen img{
+    width: 50%;
+    padding: 0px;
+  
+}
+
+#Cellulitebehandelingen img{
+    width: 50%;
+    padding: 0px;
+  
+}
+#Headspa img{
+    width: 50%;
+    padding: 0px;
+}
+
+#massage section div{
+    background-color: #E8E0D5;
+    position: absolute;
+    justify-content: space-between;
+
+    min-height: 0px;
+    padding: 0px;
+    color: #000000;
+    margin-right: 0;
+}
+
+#massage section div h3{
+
+    background-color: #E8E0D5;
+    text-align: center;
+    width: 20%;
+    margin-left: 15%;
+    /*flex-direction:column;*/
+    /*gap: 10px;*/
+    min-height: 40px;
+    padding-bottom: 2px;
+    color: #000000;
+}
+#massage section div p{text-align: center;}
+#massage section div p {
+    width: 30vw;
+    height: -36vh;
+}
+
+/*contact*/
+
+#contact{
+    color: #8C745F;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+    margin-bottom: 30px;
+    
+}
+
+.divider{
+    border-bottom: 7px solid #8C745F; /*LIJN*/
+    width: 30%;
+    position: relative;
+    display: flex;
+    margin-left: 20px;
+}
+
+
+/* FOOTER */
+
+footer #top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px 2vw;
+    font-size: 1.1em; /*grootte tekst*/
+}
+footer .kolom{
+    width:26vw;
+}
+footer .links, footer .links h3{
+    text-align: left; /*uitlijning*/
+    justify-content: flex-start;
+   
+}
+footer .midden{
+    text-align: center; /*uitlijning*/
+    align-items: flex-start;
+}
+
+footer .rechts, footer .rechts h3{
+    text-align: right; /*uitlijning*/
+    align-items: flex-start;
+}
+
+footer h3{
+    margin-bottom: 20px;
+}
+
+
+#gallery{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    flex-wrap: wrap;
+    width: 80%;
+    position: relative;
+    left: 7%; 
+    right: 7%;
+    margin: 30px;
+}
+
+#pictures #gallery{
+    display: flex;
+    align-content: stretch;
+    flex-wrap: wrap;
+    padding-block: 20px;
+    
+}
+
+#pictures #gallery a{
+   width: 26%;
+   height: auto;
+   padding: 0;
+   margin: 0;
+   border: 20;
+   line-height: 0;
+   margin: 2%;
+}
+#pictures #gallery a img{
+    width: 100%;
+}
+/*form{
+    margin:40px 0;
+}
+input{
+    width: 50%;
+    padding: 10px;
+    font-size:1em;
+    font-family: 'Raleway', sans-serif;
+    margin:10px 0;
+    border: 1px solid #EFEFEF;
+}
+textarea{
+    width: 53%;
+    border: 1px solid #EFEFEF;
+}
+input[type="submit"]{
+    width: 53%;
+    border: 1px solid #000000;
+    background-color: rgba(0, 0, 0, 1);
+    color: #FFFFFF;
+    transition: all 0.3s;
+}
+input[type="submit"] :hover{
+    transition: all 0.3s;
+    background-color: rgba(240,205,0,1);
+    color: #000000;
+}*/
+/*FORMULIEREN*/
+form{
+    margin:40px 0;
+    width:50vw;
+}
+input{
+    width: 97%;
+    padding: 10px;
+    font-size:1em;
+    font-family: 'Raleway', sans-serif;
+    margin:10px 0;
+    border: 1px solid #E8E0D5;
+    background-color: #E8E0D5;
+}
+textarea{
+    width: 53%;
+    border: 1px solid #E8E0D5;
+}
+
+input[type="submit"]{
+    width: 53%;
+    border: 1px solid #E8E0D5;
+    background-color: #E8E0D5;
+    color: #FFFFFF;
+    transition: all 0.3s;
+}
+input[type="submit"]:hover{
+    transition: all 0.3s;
+    border: 1px solid #8C745F;
+    background-color:#FFFFFF;
+    color: #FFFFFF;
+}
+
+input[type="radio"]{ /*kijken naar type in html*/
+    width: 20px;
+}
+input[type="checkbox"]{   /*kijken naar type in html*/
+    width: 20px;
+}
+
+#form-container{
+    display: flex;
+    justify-content: center;
+    
+}
+
+#maps{
+    
+    display:flex;
+    justify-content: center;
+    text-align: block;
+   
+}
